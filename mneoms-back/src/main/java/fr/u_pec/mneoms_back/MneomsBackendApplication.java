@@ -1,13 +1,13 @@
-package com.example.dist;
+package fr.u_pec.mneoms_back;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DistApplication {
+public class MneomsBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DistApplication.class, args);
+		SpringApplication.run(MneomsBackendApplication.class, args);
 	}
 
 }
